@@ -1,4 +1,4 @@
 I2O_FindMeOnAMap
 ================
 
-Simple Location-awareness App
+A simple example of Location-awareness using CoreLocation and MapKit
