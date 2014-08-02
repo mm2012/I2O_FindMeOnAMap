@@ -4,13 +4,13 @@ I2O_FindMeOnAMap
 A simple example of Location-awareness using CoreLocation and MapKit
 
 For a new Developer, Apple`s API can be intimidating as they try to cover many scenarios.
-Sometimes it's a challenge to go through the examples just do some simple stuff.
+Sometimes it's a challenge to go through the examples just to do some simple stuff.
 
-This project address a simple problem statement like..
-"How do I locate my current location on a Map? 
-Then show a Pin there with a Callout that has a title, address of this location as a it's subtitle and an image?".
+This project address a simple situation:
+"How do I locate my current location on a Map?"
+"Then show a Pin there with a Callout that has a title, address of this location (as it's subtitle) and an image?".
 
-The example uses:
+API features used:
 - CoreLocation's Location Manager  (talking to the the hardware underneath, finds current location)
 - MKMapView  (to show a Map in the UI using MapKit API)
 - MKAnnotation (A custom MKAnnotation-confirming Annotation object that Annotates the location on the MKMapView object)
