@@ -22,6 +22,7 @@ Features used:
 
 
 Async processing:
+
 Reverse Geocoding request is processed Asynchronously with a Block for Completion Handling. 
 Why Asynchronous? Neither do we want to block execution Main thread (namely, a responsive UI) and who knows how long the Reverse Geocoding request will take.
 
