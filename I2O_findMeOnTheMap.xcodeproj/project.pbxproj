@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C495858198A8140008E9DB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C495857198A8140008E9DB4 /* Foundation.framework */; };
+		1C49585A198A8140008E9DB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C495859198A8140008E9DB4 /* CoreGraphics.framework */; };
+		1C49585C198A8140008E9DB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C49585B198A8140008E9DB4 /* UIKit.framework */; };
+		1C495862198A8140008E9DB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C495860198A8140008E9DB4 /* InfoPlist.strings */; };
+		1C495864198A8140008E9DB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C495863198A8140008E9DB4 /* main.m */; };
+		1C495868198A8140008E9DB4 /* I2OAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C495867198A8140008E9DB4 /* I2OAppDelegate.m */; };
+		1C49586A198A8140008E9DB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C495869198A8140008E9DB4 /* Images.xcassets */; };
+		1C495871198A8140008E9DB4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C495870198A8140008E9DB4 /* XCTest.framework */; };
+		1C495872198A8140008E9DB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C495857198A8140008E9DB4 /* Foundation.framework */; };
+		1C495873198A8140008E9DB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C49585B198A8140008E9DB4 /* UIKit.framework */; };
+		1C49587B198A8140008E9DB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C495879198A8140008E9DB4 /* InfoPlist.strings */; };
+		1C49587D198A8140008E9DB4 /* I2O_findMeOnTheMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C49587C198A8140008E9DB4 /* I2O_findMeOnTheMapTests.m */; };
+		1C495889198A8180008E9DB4 /* findMeUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C495887198A8180008E9DB4 /* findMeUIViewController.m */; };
+		1C49588A198A8180008E9DB4 /* findMeUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C495888198A8180008E9DB4 /* findMeUIViewController.xib */; };
+		1C49588C198AC3AA008E9DB4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C49588B198AC3AA008E9DB4 /* CoreLocation.framework */; };
+		1C5384A5198ACAD3005AA1D9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5384A4198ACAD3005AA1D9 /* MapKit.framework */; };
+		1CD1FF7F198C2F29008819DE /* I2OAnnotationPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1FF7E198C2F29008819DE /* I2OAnnotationPoint.m */; };
+		1CD1FF81198C4621008819DE /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD1FF80198C4621008819DE /* smiley.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C495874198A8140008E9DB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C49584C198A8140008E9DB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C495853198A8140008E9DB4;
+			remoteInfo = I2O_findMeOnTheMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C495854198A8140008E9DB4 /* I2O_findMeOnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = I2O_findMeOnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C495857198A8140008E9DB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C495859198A8140008E9DB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C49585B198A8140008E9DB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C49585F198A8140008E9DB4 /* I2O_findMeOnTheMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "I2O_findMeOnTheMap-Info.plist"; sourceTree = "<group>"; };
+		1C495861198A8140008E9DB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C495863198A8140008E9DB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C495865198A8140008E9DB4 /* I2O_findMeOnTheMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "I2O_findMeOnTheMap-Prefix.pch"; sourceTree = "<group>"; };
+		1C495866198A8140008E9DB4 /* I2OAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = I2OAppDelegate.h; sourceTree = "<group>"; };
+		1C495867198A8140008E9DB4 /* I2OAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = I2OAppDelegate.m; sourceTree = "<group>"; };
+		1C495869198A8140008E9DB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C49586F198A8140008E9DB4 /* I2O_findMeOnTheMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = I2O_findMeOnTheMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C495870198A8140008E9DB4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1C495878198A8140008E9DB4 /* I2O_findMeOnTheMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "I2O_findMeOnTheMapTests-Info.plist"; sourceTree = "<group>"; };
+		1C49587A198A8140008E9DB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C49587C198A8140008E9DB4 /* I2O_findMeOnTheMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = I2O_findMeOnTheMapTests.m; sourceTree = "<group>"; };
+		1C495886198A8180008E9DB4 /* findMeUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = findMeUIViewController.h; path = ../findMeUIViewController.h; sourceTree = "<group>"; };
+		1C495887198A8180008E9DB4 /* findMeUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = findMeUIViewController.m; path = ../findMeUIViewController.m; sourceTree = "<group>"; };
+		1C495888198A8180008E9DB4 /* findMeUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = findMeUIViewController.xib; path = ../findMeUIViewController.xib; sourceTree = "<group>"; };
+		1C49588B198AC3AA008E9DB4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1C5384A4198ACAD3005AA1D9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1CD1FF7D198C2F29008819DE /* I2OAnnotationPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I2OAnnotationPoint.h; sourceTree = "<group>"; };
+		1CD1FF7E198C2F29008819DE /* I2OAnnotationPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I2OAnnotationPoint.m; sourceTree = "<group>"; };
+		1CD1FF80198C4621008819DE /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smiley.png; path = ../smiley.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C495851198A8140008E9DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5384A5198ACAD3005AA1D9 /* MapKit.framework in Frameworks */,
+				1C49588C198AC3AA008E9DB4 /* CoreLocation.framework in Frameworks */,
+				1C49585A198A8140008E9DB4 /* CoreGraphics.framework in Frameworks */,
+				1C49585C198A8140008E9DB4 /* UIKit.framework in Frameworks */,
+				1C495858198A8140008E9DB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C49586C198A8140008E9DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C495871198A8140008E9DB4 /* XCTest.framework in Frameworks */,
+				1C495873198A8140008E9DB4 /* UIKit.framework in Frameworks */,
+				1C495872198A8140008E9DB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C49584B198A8140008E9DB4 = {
+			isa = PBXGroup;
+			children = (
+				1C49585D198A8140008E9DB4 /* I2O_findMeOnTheMap */,
+				1C495876198A8140008E9DB4 /* I2O_findMeOnTheMapTests */,
+				1C495856198A8140008E9DB4 /* Frameworks */,
+				1C495855198A8140008E9DB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C495855198A8140008E9DB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C495854198A8140008E9DB4 /* I2O_findMeOnTheMap.app */,
+				1C49586F198A8140008E9DB4 /* I2O_findMeOnTheMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C495856198A8140008E9DB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C5384A4198ACAD3005AA1D9 /* MapKit.framework */,
+				1C49588B198AC3AA008E9DB4 /* CoreLocation.framework */,
+				1C495857198A8140008E9DB4 /* Foundation.framework */,
+				1C495859198A8140008E9DB4 /* CoreGraphics.framework */,
+				1C49585B198A8140008E9DB4 /* UIKit.framework */,
+				1C495870198A8140008E9DB4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C49585D198A8140008E9DB4 /* I2O_findMeOnTheMap */ = {
+			isa = PBXGroup;
+			children = (
+				1C495886198A8180008E9DB4 /* findMeUIViewController.h */,
+				1C495887198A8180008E9DB4 /* findMeUIViewController.m */,
+				1C495888198A8180008E9DB4 /* findMeUIViewController.xib */,
+				1C495866198A8140008E9DB4 /* I2OAppDelegate.h */,
+				1C495867198A8140008E9DB4 /* I2OAppDelegate.m */,
+				1CD1FF7D198C2F29008819DE /* I2OAnnotationPoint.h */,
+				1CD1FF7E198C2F29008819DE /* I2OAnnotationPoint.m */,
+				1C495869198A8140008E9DB4 /* Images.xcassets */,
+				1C49585E198A8140008E9DB4 /* Supporting Files */,
+			);
+			path = I2O_findMeOnTheMap;
+			sourceTree = "<group>";
+		};
+		1C49585E198A8140008E9DB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CD1FF80198C4621008819DE /* smiley.png */,
+				1C49585F198A8140008E9DB4 /* I2O_findMeOnTheMap-Info.plist */,
+				1C495860198A8140008E9DB4 /* InfoPlist.strings */,
+				1C495863198A8140008E9DB4 /* main.m */,
+				1C495865198A8140008E9DB4 /* I2O_findMeOnTheMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C495876198A8140008E9DB4 /* I2O_findMeOnTheMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C49587C198A8140008E9DB4 /* I2O_findMeOnTheMapTests.m */,
+				1C495877198A8140008E9DB4 /* Supporting Files */,
+			);
+			path = I2O_findMeOnTheMapTests;
+			sourceTree = "<group>";
+		};
+		1C495877198A8140008E9DB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C495878198A8140008E9DB4 /* I2O_findMeOnTheMapTests-Info.plist */,
+				1C495879198A8140008E9DB4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C495853198A8140008E9DB4 /* I2O_findMeOnTheMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C495880198A8140008E9DB4 /* Build configuration list for PBXNativeTarget "I2O_findMeOnTheMap" */;
+			buildPhases = (
+				1C495850198A8140008E9DB4 /* Sources */,
+				1C495851198A8140008E9DB4 /* Frameworks */,
+				1C495852198A8140008E9DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = I2O_findMeOnTheMap;
+			productName = I2O_findMeOnTheMap;
+			productReference = 1C495854198A8140008E9DB4 /* I2O_findMeOnTheMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C49586E198A8140008E9DB4 /* I2O_findMeOnTheMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C495883198A8140008E9DB4 /* Build configuration list for PBXNativeTarget "I2O_findMeOnTheMapTests" */;
+			buildPhases = (
+				1C49586B198A8140008E9DB4 /* Sources */,
+				1C49586C198A8140008E9DB4 /* Frameworks */,
+				1C49586D198A8140008E9DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C495875198A8140008E9DB4 /* PBXTargetDependency */,
+			);
+			name = I2O_findMeOnTheMapTests;
+			productName = I2O_findMeOnTheMapTests;
+			productReference = 1C49586F198A8140008E9DB4 /* I2O_findMeOnTheMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C49584C198A8140008E9DB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = I2O;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = idea2Objects;
+				TargetAttributes = {
+					1C49586E198A8140008E9DB4 = {
+						TestTargetID = 1C495853198A8140008E9DB4;
+					};
+				};
+			};
+			buildConfigurationList = 1C49584F198A8140008E9DB4 /* Build configuration list for PBXProject "I2O_findMeOnTheMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C49584B198A8140008E9DB4;
+			productRefGroup = 1C495855198A8140008E9DB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C495853198A8140008E9DB4 /* I2O_findMeOnTheMap */,
+				1C49586E198A8140008E9DB4 /* I2O_findMeOnTheMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C495852198A8140008E9DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD1FF81198C4621008819DE /* smiley.png in Resources */,
+				1C495862198A8140008E9DB4 /* InfoPlist.strings in Resources */,
+				1C49588A198A8180008E9DB4 /* findMeUIViewController.xib in Resources */,
+				1C49586A198A8140008E9DB4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C49586D198A8140008E9DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C49587B198A8140008E9DB4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C495850198A8140008E9DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C495889198A8180008E9DB4 /* findMeUIViewController.m in Sources */,
+				1C495864198A8140008E9DB4 /* main.m in Sources */,
+				1CD1FF7F198C2F29008819DE /* I2OAnnotationPoint.m in Sources */,
+				1C495868198A8140008E9DB4 /* I2OAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C49586B198A8140008E9DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C49587D198A8140008E9DB4 /* I2O_findMeOnTheMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C495875198A8140008E9DB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C495853198A8140008E9DB4 /* I2O_findMeOnTheMap */;
+			targetProxy = 1C495874198A8140008E9DB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C495860198A8140008E9DB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C495861198A8140008E9DB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1C495879198A8140008E9DB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C49587A198A8140008E9DB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C49587E198A8140008E9DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C49587F198A8140008E9DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C495881198A8140008E9DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "I2O_findMeOnTheMap/I2O_findMeOnTheMap-Prefix.pch";
+				INFOPLIST_FILE = "I2O_findMeOnTheMap/I2O_findMeOnTheMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C495882198A8140008E9DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "I2O_findMeOnTheMap/I2O_findMeOnTheMap-Prefix.pch";
+				INFOPLIST_FILE = "I2O_findMeOnTheMap/I2O_findMeOnTheMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1C495884198A8140008E9DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/I2O_findMeOnTheMap.app/I2O_findMeOnTheMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "I2O_findMeOnTheMap/I2O_findMeOnTheMap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "I2O_findMeOnTheMapTests/I2O_findMeOnTheMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1C495885198A8140008E9DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/I2O_findMeOnTheMap.app/I2O_findMeOnTheMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "I2O_findMeOnTheMap/I2O_findMeOnTheMap-Prefix.pch";
+				INFOPLIST_FILE = "I2O_findMeOnTheMapTests/I2O_findMeOnTheMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C49584F198A8140008E9DB4 /* Build configuration list for PBXProject "I2O_findMeOnTheMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C49587E198A8140008E9DB4 /* Debug */,
+				1C49587F198A8140008E9DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C495880198A8140008E9DB4 /* Build configuration list for PBXNativeTarget "I2O_findMeOnTheMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C495881198A8140008E9DB4 /* Debug */,
+				1C495882198A8140008E9DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C495883198A8140008E9DB4 /* Build configuration list for PBXNativeTarget "I2O_findMeOnTheMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C495884198A8140008E9DB4 /* Debug */,
+				1C495885198A8140008E9DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C49584C198A8140008E9DB4 /* Project object */;
+}
