@@ -20,6 +20,7 @@ Features used:
 - The " -(MKAnnotationView *)mapView:(MKMapView *)theMapView viewForAnnotation:(id <MKAnnotation>)annotation" delegate method, has the long but needed code for placing an image in the callout by setting 'leftCalloutAccessoryView' property of the MkAnnotationView (for the pin). Note: NOT the 'image' property.
 - A UITextField for the user to enter the Annotation title. Which the UITextField informs it'S Delegate the View Controller.
 
+
 Async processing:
 Reverse Geocoding request is processed Asynchronously with a Block for Completion Handling. 
 Why Asynchronous? Neither do we want to block execution Main thread (namely, a responsive UI) and who knows how long the Reverse Geocoding request will take.
