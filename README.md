@@ -30,5 +30,4 @@ Why Asynchronous? Neither do we want to block execution Main thread (namely, a r
 
 Delegation:
 - UITextField uses Delegation to inform the View Controller that the return key was pressed, so the FirstResponder can be resigned and the hence the keyboard dismissed.
-- In your XIB don't forget to connect the UITextField object to the File's Owner Delegate property.
-- Dont forget to connect the Map View Object in XIB to the Delegate property of File's Owner.
+- In your XIB don't forget to connect the UITextField and MKMApView objects to their respective Delegate property in  File's Owner. Or how can they receive messages?
