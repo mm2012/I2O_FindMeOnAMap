@@ -1,14 +1,15 @@
 I2O_FindMeOnAMap
 ================
 
-A simple example of Location-awareness using CoreLocation and MapKit
+A Location-awareness example using CoreLocation, MKMapView, CLGeocoder,  MKAnnotation and CLPlacemark.
 
-For a new Developer, Apple`s API can be intimidating as they try to cover many scenarios.
+For a new Developer, Apple`s API can be intimidating as they try to hit many scenarios.
 Sometimes it's a challenge to go through the examples just to do some simple stuff.
 
 This project address a simple situation:
 "How do I locate my current location on a Map?"
 "Then show a Pin there with a Callout that has a title, address of this location (as it's subtitle) and an image?".
+
 
 Features used:
 - CoreLocation's Location Manager  (talking to the the hardware underneath, finds current location)
@@ -27,7 +28,7 @@ Reverse Geocoding request is processed Asynchronously with a Block for Completio
 Why Asynchronous? Neither do we want to block execution Main thread (namely, a responsive UI) and who knows how long the Reverse Geocoding request will take.
 
 
-Delegation
+Delegation:
 - UITextField uses Delegation to inform the View Controller that the return key was pressed, so the FirstResponder can be resigned and the hence the keyboard dismissed.
 - In your XIB don't forget to connect the UITextField object to the File's Owner Delegate property.
 - Dont forget to connect the Map View Object in XIB to the Delegate property of File's Owner.
